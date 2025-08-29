@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="fa" dir="rtl"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>احسان محمدی | طراح و توسعه‌دهنده وب</title>
+  
+  <!-- Open Graph Meta Tags for Social Media Preview -->
+  <meta property="og:title" content="احسان محمدی">
+  <meta property="og:description" content="👤 کلیک کنید...">
+  <meta property="og:image" content="https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=1200&amp;h=630&amp;fit=crop&amp;crop=focalpoint&amp;fp-x=0.7&amp;fp-y=0.3&amp;fp-z=3">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="احسان محمدی">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="احسان محمدی">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:url" content="<?php echo (isset($_SERVER['HTTPS']) &amp;&amp; $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="احسان محمدی">
+  <meta name="twitter:description" content="👤 کلیک کنید...">
+  <meta name="twitter:image" content="https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=1200&amp;h=600&amp;fit=crop&amp;crop=focalpoint&amp;fp-x=0.75&amp;fp-y=0.25&amp;fp-z=4">
+  <meta name="twitter:image:alt" content="احسان محمدی">
+  
+  <!-- Additional Meta Tags for SEO -->
+  <meta name="description" content="احسان محمدی - طراح و توسعه‌دهنده وب با تخصص در UI/UX، وردپرس و توسعه نرم‌افزار.">
+  <meta name="keywords" content="طراح وب, توسعه دهنده, UI/UX, وردپرس, احسان محمدی, web developer, web designer">
+  <meta name="author" content="احسان محمدی">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=32&amp;h=32">
+  <link rel="apple-touch-icon" href="https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=180&amp;h=180">
+  
+  <!-- Structured Data for Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "احسان محمدی",
+    "jobTitle": "طراح و توسعه‌دهنده وب",
+    "description": "طراح و توسعه‌دهنده وب با تخصص در UI/UX، وردپرس و توسعه نرم‌افزار",
+    "image": "https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=1024&h=1024",
+    "url": "<?php echo (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>",
+    "sameAs": [
+      "https://www.instagram.com/ehsanmoham.adi?igsh=MTRjMWNleWk0MmcwcQ==",
+      "https://github.com/esngruop?tab=repositories"
+    ],
+    "knowsAbout": ["UI/UX Design", "Web Development", "WordPress", "Frontend Development"]
+  }
+  </script>
+  
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> 
+  <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'vazir': ['Vazirmatn', 'sans-serif'],
+                    },
+                    animation: {
+                        'fadeIn': 'fadeIn 0.6s ease-out forwards',
+                        'slideUp': 'slideUp 0.5s ease-out forwards',
+                        'pulse-soft': 'pulse-soft 3s ease-in-out infinite',
+                        'rotate-smooth': 'rotate-smooth 8s linear infinite',
+                        'float-gentle': 'float-gentle 4s ease-in-out infinite',
+                    }
+                }
+            }
+        }
+    </script> 
+  <style>
+        /* Loading Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px) scale(0.95); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-40px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(40px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        @keyframes pulse-soft {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+        
+        @keyframes rotate-smooth {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes float-gentle {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
+        
+        /* Page Loader */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes loader-pulse {
+            0%, 100% { opacity: 0.4; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+        
+        @keyframes loader-fadeOut {
+            from { opacity: 1; visibility: visible; }
+            to { opacity: 0; visibility: hidden; }
+        }
+        
+        /* Advanced Hover Effects */
+        @keyframes bounceIn {
+            0% { transform: scale(0.3) translateY(0); opacity: 0; }
+            50% { transform: scale(1.05) translateY(-2px); }
+            70% { transform: scale(0.95) translateY(0); }
+            100% { transform: scale(1) translateY(0); opacity: 1; }
+        }
+        
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        /* Modern 3D Background */
+        .modern-bg-3d {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 50%, #cbd5e1 100%);
+            min-height: 100vh;
+        }
+        
+        /* Compact Container with subtle 3D */
+        .compact-container-3d {
+            max-width: 380px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Enhanced Profile Container */
+        .profile-container-3d {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+        }
+        
+        /* Soft 3D Profile Ring */
+        .profile-ring-3d {
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            width: 108px;
+            height: 108px;
+            border-radius: 50%;
+           // background: linear-gradient(45deg, #6366f1, #8b5cf6, #ec4899, #06b6d4);
+            animation: rotate-smooth 8s linear infinite;
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.3),
+                       0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* 3D Profile Image */
+        .profile-image-3d {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 1px solid #ffffff;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15),
+                     0 6px 15px rgba(99, 102, 241, 0.2),
+                    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+            z-index: -2;
+            transition: all 0.4s ease;
+           // animation: float-gentle 4s ease-in-out infinite;
+        }
+        
+        .profile-image-3d:hover {
+            // transform: translateY(-3px);
+         //   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2),
+                        //0 10px 25px rgba(99, 102, 241, 0.3);
+        }
+        
+        /* Elegant 3D Cards */
+        .elegant-card-3d {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1),
+                        0 8px 20px rgba(99, 102, 241, 0.08),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .elegant-card-3d:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15),
+                        0 15px 30px rgba(99, 102, 241, 0.12);
+        }
+        
+        /* Enhanced 3D Link Cards */
+        .link-card-3d {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08),
+                        0 4px 10px rgba(99, 102, 241, 0.05);
+        }
+        
+        .link-card-3d:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12),
+                        0 10px 25px rgba(99, 102, 241, 0.15),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+        }
+        
+        /* Enhanced 3D Icons */
+        .modern-icon-3d {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2),
+                        0 3px 8px rgba(0, 0, 0, 0.1),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+        
+        .modern-icon-3d:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25),
+                        0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Enhanced 3D Tags */
+        .elegant-tag-3d {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 20px;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #4f46e5;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin: 2px;
+            box-shadow: 0 4px 10px rgba(99, 102, 241, 0.1),
+                        0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        .elegant-tag-3d:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25),
+                        0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Enhanced Online Status */
+        .online-dot-3d {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.5),
+                        0 4px 10px rgba(0, 0, 0, 0.15);
+            animation: pulse-soft 3s ease-in-out infinite;
+        }
+        
+        /* Enhanced Social Grid */
+        .social-grid-3d {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .social-item-3d {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 16px;
+            padding: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08),
+                        0 3px 8px rgba(99, 102, 241, 0.05);
+        }
+        
+        .social-item-3d:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12),
+                        0 8px 20px rgba(99, 102, 241, 0.1);
+        }
+        
+        /* Enhanced Typography */
+        .modern-title-3d {
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1e293b, #475569);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .modern-subtitle-3d {
+            color: #64748b;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Compact spacing */
+        .compact-space-3d { margin-bottom: 12px; }
+        
+        /* Responsive adjustments */
+        @media (max-width: 640px) {
+            .compact-container-3d {
+                max-width: 100%;
+                padding: 16px;
+            }
+        }
+    </style> 
+ </head> 
+ <body class="font-vazir modern-bg-3d"> 
+  <div class="compact-container-3d min-h-screen flex flex-col justify-center py-8"> <!-- Enhanced 3D Profile Card --> 
+   <div class="elegant-card-3d p-6 mb-5 animate-fadeIn" style="animation-delay: 0.1s;"> <!-- Enhanced 3D Profile Image --> 
+    <div class="profile-container-3d"> 
+     <div class="profile-ring-3d"></div> 
+     <div class="profile-image-3d"> 
+      <img src="https://pfst.cf2.poecdn.net/base/image/7d44ce80306baac77c7dedcb95d227f46f41d6ab876c4f90147a8929cb709bf9?w=1024&amp;h=1024" alt="احسان محمدی - طراح و توسعه‌دهنده وب" class="w-full h-full object-cover"> 
+     </div> 
+     <div class="online-dot-3d"></div> 
+    </div> <!-- Profile Info --> 
+    <div class="text-center"> 
+     <h1 class="modern-title-3d">Ehsan Mohammadi</h1> 
+     <p class="modern-subtitle-3d">طراح و توسعه‌دهنده وب</p> <!-- Enhanced 3D Tags --> 
+     <div class="compact-space-3d"> <span class="elegant-tag-3d">UI/UX</span> <span class="elegant-tag-3d">توسعه‌دهنده</span> <span class="elegant-tag-3d">وردپرس</span> 
+     </div> 
+    </div> 
+   </div> <!-- Enhanced 3D Links --> 
+   <div class="space-y-3"> <!-- WhatsApp --> <a href="https://wa.me/+98" target="_blank" class="link-card-3d block animate-slideUp" style="animation-delay: 0.2s;"> 
+     <div class="flex items-center justify-between"> 
+      <div class="flex items-center space-x-3 space-x-reverse"> 
+       <div class="modern-icon-3d" style="background: linear-gradient(135deg, #25d366, #128c7e);"> <i class="fab fa-whatsapp"></i> 
+       </div> 
+       <div> 
+        <h3 class="font-semibold text-gray-800 text-base">WhatsApp</h3> 
+        <p class="text-gray-600 text-sm">گفتگوی مستقیم</p> 
+       </div> 
+      </div> <i class="fas fa-arrow-left text-gray-400"></i> 
+     </div> </a> <!-- Telegram --> <a href="." target="_blank" class="link-card-3d block animate-slideUp" style="animation-delay: 0.3s;"> 
+     <div class="flex items-center justify-between"> 
+      <div class="flex items-center space-x-3 space-x-reverse"> 
+       <div class="modern-icon-3d" style="background: linear-gradient(135deg, #0088cc, #006bb3);"> <i class="fab fa-telegram"></i> 
+       </div> 
+       <div> 
+        <h3 class="font-semibold text-gray-800 text-base">Telegram</h3> 
+        <p class="text-gray-600 text-sm">گفت‌وگو در پیام</p> 
+       </div> 
+      </div> <i class="fas fa-arrow-left text-gray-400"></i> 
+     </div> </a> <!-- Portfolio --> <a href="https://your-portfolio.com" target="_blank" class="link-card-3d block animate-slideUp" style="animation-delay: 0.4s;"> 
+     <div class="flex items-center justify-between"> 
+      <div class="flex items-center space-x-3 space-x-reverse"> 
+       <div class="modern-icon-3d" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);"> <i class="fas fa-briefcase"></i> 
+       </div> 
+       <div> 
+        <h3 class="font-semibold text-gray-800 text-base">Portfolio</h3> 
+        <p class="text-gray-600 text-sm">نمونه کارها</p> 
+       </div> 
+      </div> <i class="fas fa-arrow-left text-gray-400"></i> 
+     </div> </a> <!-- Email --> <a href="mailto:." class="link-card-3d block animate-slideUp" style="animation-delay: 0.5s;"> 
+     <div class="flex items-center justify-between"> 
+      <div class="flex items-center space-x-3 space-x-reverse"> 
+       <div class="modern-icon-3d" style="background: linear-gradient(135deg, #ef4444, #dc2626);"> <i class="fas fa-envelope"></i> 
+       </div> 
+       <div> 
+        <h3 class="font-semibold text-gray-800 text-base">Email</h3> 
+        <p class="text-gray-600 text-sm">ارتباط رسمی</p> 
+       </div> 
+      </div> <i class="fas fa-arrow-left text-gray-400"></i> 
+     </div> </a> 
+   </div> <!-- Enhanced 3D Social Media --> 
+   <div class="social-grid-3d animate-slideUp" style="animation-delay: 0.6s;"> <a href="https://linkedin.com/in/your-profile" target="_blank" class="social-item-3d"> 
+     <div class="modern-icon-3d mx-auto mb-2" style="background: linear-gradient(135deg, #0077b5, #005885); width: 40px; height: 40px; font-size: 16px;"> <i class="fab fa-linkedin"></i> 
+     </div> <p class="text-gray-700 text-xs font-medium">LinkedIn</p> </a> <a href="https://github.com/esngruop?tab=repositories" target="_blank" class="social-item-3d"> 
+     <div class="modern-icon-3d mx-auto mb-2" style="background: linear-gradient(135deg, #333, #24292e); width: 40px; height: 40px; font-size: 16px;"> <i class="fab fa-github"></i> 
+     </div> <p class="text-gray-700 text-xs font-medium">GitHub</p> </a> <a href="https://www.instagram.com/ehsanmoham.adi?igsh=MTRjMWNleWk0MmcwcQ==" target="_blank" class="social-item-3d"> 
+     <div class="modern-icon-3d mx-auto mb-2" style="background: linear-gradient(135deg, #e4405f, #833ab4); width: 40px; height: 40px; font-size: 16px;"> <i class="fab fa-instagram"></i> 
+     </div> <p class="text-gray-700 text-xs font-medium">Instagram</p> </a> 
+   </div> <!-- Enhanced 3D Footer --> 
+   <div class="elegant-card-3d p-4 mt-5 animate-slideUp" style="animation-delay: 0.7s;"> 
+    <p class="text-gray-500 text-center text-sm"> Made with <span class="text-red-500">❤️</span> in Afghanistan </p> 
+   </div> 
+  </div> 
+  <script>
+        // Professional Page Entry Animations
+        window.addEventListener('DOMContentLoaded', function() {
+            startContentAnimations();
+        });
+        
+        // Enhanced Content Loading Animations
+        function startContentAnimations() {
+            const profileCard = document.querySelector('.elegant-card-3d');
+            const linkCards = document.querySelectorAll('.link-card-3d');
+            const socialGrid = document.querySelector('.social-grid-3d');
+            const footer = document.querySelector('.elegant-card-3d:last-child');
+            
+            // Profile card animation
+            setTimeout(() => {
+                profileCard.style.animation = 'scaleIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards';
+                profileCard.style.opacity = '1';
+            }, 100);
+            
+            // Link cards with staggered animation (alternating left/right)
+            linkCards.forEach((card, index) => {
+                setTimeout(() => {
+                    if (index % 2 === 0) {
+                        card.style.animation = 'slideInLeft 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards';
+                    } else {
+                        card.style.animation = 'slideInRight 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards';
+                    }
+                    card.style.opacity = '1';
+                }, 300 + (index * 150));
+            });
+            
+            // Social grid animation
+            setTimeout(() => {
+                socialGrid.style.animation = 'bounceIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards';
+                socialGrid.style.opacity = '1';
+            }, 700);
+            
+            // Footer animation
+            setTimeout(() => {
+                footer.style.animation = 'fadeIn 0.6s ease-out forwards';
+                footer.style.opacity = '1';
+            }, 900);
+        }
+        
+        // Enhanced Click Effects for Buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            // Professional click animations for link cards
+            document.querySelectorAll('.link-card-3d').forEach(card => {
+                card.addEventListener('click', function(e) {
+                    // Create ripple effect
+                    const ripple = document.createElement('div');
+                    const rect = this.getBoundingClientRect();
+                    const size = 60;
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.cssText = `
+                        position: absolute;
+                        width: ${size}px;
+                        height: ${size}px;
+                        border-radius: 50%;
+                        background: rgba(99, 102, 241, 0.3);
+                        left: ${x}px;
+                        top: ${y}px;
+                        transform: scale(0);
+                        animation: ripple 0.6s ease-out;
+                        pointer-events: none;
+                        z-index: 10;
+                    `;
+                    
+                    this.style.position = 'relative';
+                    this.style.overflow = 'hidden';
+                    this.appendChild(ripple);
+                    
+                    // Button press animation
+                    this.style.transform = 'translateY(-2px) scale(0.98)';
+                    this.style.transition = 'all 0.1s ease-out';
+                    
+                    setTimeout(() => {
+                        this.style.transform = '';
+                        this.style.transition = 'all 0.3s ease';
+                    }, 150);
+                    
+                    setTimeout(() => ripple.remove(), 600);
+                });
+                
+                // Enhanced hover effects
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.02)';
+                    this.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.15), 0 15px 30px rgba(99, 102, 241, 0.2)';
+                    
+                    // Add shimmer effect
+                    const shimmer = document.createElement('div');
+                    shimmer.style.cssText = `
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                        animation: shimmer 0.8s ease-out;
+                        pointer-events: none;
+                        border-radius: 16px;
+                        z-index: 5;
+                    `;
+                    this.style.position = 'relative';
+                    this.style.overflow = 'hidden';
+                    this.appendChild(shimmer);
+                    
+                    setTimeout(() => shimmer.remove(), 800);
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                    this.style.boxShadow = '';
+                });
+            });
+            
+            // Enhanced social item click effects
+            document.querySelectorAll('.social-item-3d').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    // Create pulse effect
+                    this.style.transform = 'translateY(-5px) scale(1.1)';
+                    this.style.transition = 'all 0.15s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+                    
+                    setTimeout(() => {
+                        this.style.transform = '';
+                        this.style.transition = 'all 0.3s ease';
+                    }, 150);
+                });
+                
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.05)';
+                    this.style.transition = 'all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                });
+            });
+            
+            // Enhanced tag click effects
+            document.querySelectorAll('.elegant-tag-3d').forEach(tag => {
+                tag.addEventListener('click', function() {
+                    this.style.transform = 'translateY(-3px) scale(1.15) rotate(2deg)';
+                    this.style.transition = 'all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+                    
+                    setTimeout(() => {
+                        this.style.transform = '';
+                        this.style.transition = 'all 0.3s ease';
+                    }, 200);
+                });
+                
+                tag.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px) scale(1.1)';
+                    this.style.transition = 'all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)';
+                });
+                
+                tag.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                });
+            });
+        });
+        
+        // Enhanced touch feedback for mobile
+        if ('ontouchstart' in window) {
+            document.querySelectorAll('.link-card-3d, .social-item-3d, .elegant-tag-3d').forEach(element => {
+                element.addEventListener('touchstart', function() {
+                    this.style.transform = 'translateY(-3px) scale(0.96)';
+                    this.style.transition = 'all 0.1s ease-out';
+                });
+                
+                element.addEventListener('touchend', function() {
+                    setTimeout(() => {
+                        this.style.transform = '';
+                        this.style.transition = 'all 0.3s ease';
+                    }, 100);
+                });
+            });
+        }
+        
+        // Enhanced profile interaction
+        document.addEventListener('DOMContentLoaded', function() {
+            const profileImage = document.querySelector('.profile-image-3d');
+            
+            profileImage.addEventListener('click', function() {
+                this.style.animation = 'float-gentle 0.8s ease-out';
+                this.style.transform = 'scale(1.1) rotate(5deg)';
+                
+                setTimeout(() => {
+                    this.style.transform = '';
+                    this.style.animation = 'float-gentle 4s ease-in-out infinite';
+                }, 800);
+            });
+        });
+        
+        // Add ripple animation keyframe
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Initially hide all content elements for smooth entry
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.elegant-card-3d, .link-card-3d, .social-grid-3d');
+            elements.forEach(el => {
+                el.style.opacity = '0';
+            });
+        });
+    </script> 
+ 
+</body></html>
